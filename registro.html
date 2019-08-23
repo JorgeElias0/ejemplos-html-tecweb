@@ -4,31 +4,31 @@
         <title>Form Example</title>
     </head>
     <body>
-        <form>
+        <form method="GET">
             <div>
                 <h1>Register</h1>
-                <label>First Name:</label>
-                <input type="text" name="first-name">
-                <label>Last Name:</label>
-                <input type="text" name="last-name">
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" id="first-name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" id="last-name">
             </div>
             <div>
-                <label>Male</label>
-                <input type="radio" name="genero">
-                <label>Female</label>
-                <input type="radio" name="genero">
-                <label>Other</label>
-                <input type="radio" name="genero">
+                <label for="male">Male</label>
+                <input type="radio" name="genero" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="genero" id="female">
+                <label for="other">Other</label>
+                <input type="radio" name="genero" id="other">
             </div>
             <div>
-                <label>Email:</label>
-                <input type="text" name="email">
-                <label>Password</label>
-                <input type="password" name="password">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
             </div>
 
             <!--Boton para enviar la información -->
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="send-to-server">
         </form>
 
         <div>
